@@ -15,7 +15,7 @@ public class CellWorld {
         column = c;
         Scanner scan = null;
         try {
-        	scan = new Scanner(new File("C:\\data.txt"));
+        	scan = new Scanner(new File("data.txt"));
         	
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
